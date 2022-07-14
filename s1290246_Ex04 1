@@ -1,6 +1,10 @@
  #include<stdio.h>
  #include<stdlib.h>
  
+ int main(){
+ int i,j,t,d1=0,d2=0;
+ char t2;
+ 
  printf("Tossing a coin...\n");
   for(i=0;i<3;i++){
     printf("Round %d:",i+1);
