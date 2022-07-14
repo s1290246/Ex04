@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+char arr[20];
+
+printf("Who are you?\n> ");
+  scanf("%s",arr);
+  printf("Hello, %s!\n",arr);
+  
+  /*user name add*/
