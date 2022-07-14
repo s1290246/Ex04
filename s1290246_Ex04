@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+  int i,j,t,d1=0,d2=0;
+  char arr[20],t2;
+
+  printf("Who are you?\n> ");
+  scanf("%s",arr);
+  printf("Hello, %s!\n",arr);
+
+    printf("Tossing a coin...\n");
+  for(i=0;i<3;i++){
+    printf("Round %d:",i+1);
+    for(j=0;j<1;j++){
+      t2=printf("%s",t%2?"Heads":"Tails");
+    t=t>>1;
+    printf("\n");
+    if(t2=="Heads")d1++;
+    else if(t2=="Tails")d2++;
+    }
+  }
+    printf("Heads: %d, Tails: %d\n",d1,d2);
+
+  if(d1>=d2) printf("%s won!\n",arr);
+  else printf("%s lost\n",arr);
+
+
+  return 0;
+}
